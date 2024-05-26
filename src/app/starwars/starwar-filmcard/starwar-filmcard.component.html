@@ -1,0 +1,14 @@
+<div class="card" appCardStyle>
+    <div class="card-header text-center" style="background-color: hsl(194, 100%, 50%); color: black">{{starwar.name}}</div>
+    <img [src]="starwar.imageUrl" 
+    alt="img" 
+    class="img-card-top p-2 border" 
+    style="height: 220px; object-fit: cover;" />
+
+    <div class="card-body">
+      <button class="btn btn-primary" style="width:100%" (click)="onDetailPage()">Details</button>
+    </div>
+    <!-- <div class="card-footer text-success text-center">{{starwar.crew}}</div> -->
+  </div> 
+      
+    <!-- <ng-content></ng-content> -->

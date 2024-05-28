@@ -1,27 +1,51 @@
-# MovieDemo
+# Starwar Demo
 
 [This project] (https://starwars1-nxcgqyorha-oa.a.run.app/) was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
-## Development server
+## Overview
+The Angular Starship Management System with Image Upload is an enhanced version of the original application, offering additional features such as image upload functionality, card-based display of starships, and Firebase integration for storing images. It provides a comprehensive solution for managing and viewing starships from the Star Wars universe, along with user authentication for personalized experiences.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+Image Upload: Users can upload images for each starship, which are stored in Firebase Storage. The uploaded images are associated with their respective starships and displayed in the application.
 
-## Code scaffolding
+Card-Based Display: Starships are displayed in a visually appealing card format, showcasing key information such as name, model, crew size, and an image thumbnail.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+CRUD Operations: Users can perform CRUD (Create, Read, Update, Delete) operations on starships, including adding new starships, updating existing starships, and deleting starships.
 
-## Build
+User Authentication: The application supports user authentication using Firebase Authentication, allowing users to register, login, and logout for personalized experiences and data management.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Search and Filter: Starships can be searched and filtered based on various criteria, providing users with easy access to specific starships of interest.
 
-## Running unit tests
+Responsive Design: The application is built with a responsive design, ensuring compatibility with various devices and screen sizes.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Components
+Starships Component: Displays starships in a card-based layout and provides options for searching, filtering, and managing starships.
 
-## Running end-to-end tests
+Starship Component: Displays detailed information about a specific starship, including attributes like name, model, crew size, and an image thumbnail.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+User Authentication Component: Provides user authentication functionalities such as registration, login, and logout using Firebase Authentication.
 
-## Further help
+## Services
+Starwar Service: Handles CRUD operations for starships, including fetching data from Firebase Realtime Database, uploading images to Firebase Storage, and managing starship details.
 
+Auth Service: Handles user authentication functionalities such as registration, login, logout, and session management using Firebase Authentication.
+
+Image Upload Service: Handles image upload operations, including selecting images from the user's device, uploading images to Firebase Storage, and associating images with starships.
+
+## Dependencies
+In addition to the dependencies mentioned in the previous version of the application, the enhanced version includes:
+
+Firebase SDK: Used for integrating Firebase services such as Authentication, Realtime Database, and Storage.
+Angular Material: Used for UI components such as cards, buttons, and forms to enhance the user experience.
+Getting Started
+Clone the repository to your local machine.
+Install dependencies using npm install.
+Set up Firebase project and configure Firebase services (Authentication, Realtime Database, and Storage).
+Update Firebase configuration in the Angular application.
+Run the application using ng serve.
+Access the application in your web browser at http://localhost:4200.
+For Registering: Click the registeration button twice, so that it will auto login to the site so that you have the authentication to create the form.
+
+## Contributing
+Contributions are welcome! If you would like to contribute to the project, feel free to submit a pull request or open an issue with any suggestions or improvements.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

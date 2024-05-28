@@ -44,7 +44,7 @@ Set up Firebase project and configure Firebase services (Authentication, Realtim
 Update Firebase configuration in the Angular application.
 Run the application using ng serve.
 Access the application in your web browser at http://localhost:4200.
-For Registering: Click the registeration button twice, so that it will auto login to the site so that you have the authentication to create the form.
+
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to the project, feel free to submit a pull request or open an issue with any suggestions or improvements.

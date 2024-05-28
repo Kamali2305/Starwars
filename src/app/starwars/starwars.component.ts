@@ -15,7 +15,7 @@ export class StarwarsComponent {
   visibility: boolean = true;
   isLoading: boolean = true;
 
-  //searchQuery: string = '';
+  
 
   constructor(private starwarService: StarwarService) {}
 
@@ -27,15 +27,7 @@ export class StarwarsComponent {
     });
   }
   
-  // onSearch() {
-  //   if (this.searchQuery.trim() === '') {
-  //     this.filteredStarwars = [...this.starwars];
-  //   } else {
-  //     this.filteredStarwars = this.starwars.filter(starwar =>
-  //       starwar.name.toLowerCase().includes(this.searchQuery.toLowerCase())
-  //     );
-  //   }
-  // }
+  
 
 }
  

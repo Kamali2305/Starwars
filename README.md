@@ -1,6 +1,5 @@
 # Starwar Demo
-
-[This project](https://starwars1-nxcgqyorha-oa.a.run.app/) was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+This [project](https://starwars1-nxcgqyorha-oa.a.run.app/) was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 ## Overview
 The Angular Starship Management System with Image Upload is an enhanced version of the original application, offering additional features such as image upload functionality, card-based display of starships, and Firebase integration for storing images. It provides a comprehensive solution for managing and viewing starships from the Star Wars universe, along with user authentication for personalized experiences.
